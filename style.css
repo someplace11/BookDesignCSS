@@ -1,0 +1,143 @@
+/* Body */
+body {
+    background: linear-gradient(45deg, rgb(51, 51, 51), rgb(117, 117, 117));
+    font-family: arial, helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.binding {
+    background: rgb(179, 76, 76);
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    height: 91.8vh;
+    width: 7rem;
+    position: absolute;
+    margin-top: 1.4rem;
+    z-index: 1;
+}
+
+.cover {
+    background: rgb(190, 80, 80);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 65%;
+    height: 85vh;
+    margin-top: 1.5rem;
+    padding: 1.5rem 2rem;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 5px 5px 5px rgba(37, 37, 37, 0.5), 0 -5px 5px rgba(37, 37, 37, 0.5); 
+}
+
+section {
+    background: rgb(214, 214, 214);
+    border: 1px solid black;
+}
+
+.pgleft {
+    border-radius: 5px 5px 10px 5px;
+    box-shadow: -10px -5px 5px rgba(37, 37, 37, 0.5), 10px 5px 15px rgba(37, 37, 37, 0.5);
+    z-index: 2;
+}
+
+.pgright {
+    border-radius: 10px 5px 5px 5px;
+    box-shadow: -10px -5px 5px rgba(37, 37, 37, 0.5), 10px 5px 5px rgba(37, 37, 37, 0.5);
+    z-index: 1;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+#subdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10%;
+}
+
+#subbtn {
+    margin-right: 2rem;
+}
+
+.pgctr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pgta {
+    display: flex;
+    justify-content: center;
+    background: rgb(228, 228, 228);
+    width: 90%;
+    height: 75%;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline-width: 0;
+    padding: 10px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.pgftr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pgnuml {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2rem;
+}
+
+.pgnumr {
+    text-align: right;
+    margin-right: 1.5rem;
+}
+
+.pgbtn {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px rgba(169, 169, 169, 0.7);
+}
+
+.pgbtn:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background: lightgray;
+}
+
+#prevbtn {
+    margin-right: 2rem;
+}
+
+#nextbtn {
+    margin-left: 2rem;
+}
